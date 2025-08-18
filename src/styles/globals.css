@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+*{
+  font-family: Plus Jakarta Sans, IBM Plex Sans, Playfair Display, sans-serif, Arial, Helvetica;
+}
