@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body
-        className={`${plusJarkataSans.variable} ${ibmPlexSans.variable} ${playfairDisplay.variable} antialiased bg-[#ecf6ff] dark:bg-background dark:text-white`}
+        className={`${plusJarkataSans.variable} ${ibmPlexSans.variable} ${playfairDisplay.variable} antialiased leading-8 overflow-x-hidden bg-[#ecf6ff] dark:bg-background dark:text-white`}
       >
         <Navbar />
 
