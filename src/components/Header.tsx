@@ -11,7 +11,7 @@ function Header() {
     return (
         <div className="relative">
             <div className="mt-16 mx-[120px]">
-                <div className="text-right mt-4 font-plus-jakarta-sans font-bold text-base text-[#56adcb]">
+                <div className="text-right mt-4 font-plus-jakarta-sans font-bold text-[16px] text-[#56adcb]">
                     ©2025
                 </div>
                 <div className="border-t-2 border-[#56adcb] w-full" />
@@ -20,7 +20,7 @@ function Header() {
                 <DotGridLayout />
             </div>
 
-            <h1 className=" ml-[120px] mt-[19px] font-plus-jakarta-sans font-extrabold text-transparent text-8xl tracking-[-5.76px] leading-[normal] whitespace-nowrap">
+            <h1 className=" ml-[120px] mt-[19px] font-plus-jakarta-sans font-extrabold text-transparent text-[96px] tracking-[-5.76px] leading-[normal] whitespace-nowrap">
                 <span className="text-[#1e1e1e] tracking-[-5.53px]">About</span>
                 <span className="text-[#56adcb] tracking-[-5.53px] ml-3">me</span>
                 <span className="text-[#1e1e1e] tracking-[-5.53px]">.</span>

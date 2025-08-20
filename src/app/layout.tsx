@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, IBM_Plex_Sans, Playfair_Display } from "next/font/google";
 import "@/styles/globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const plusJarkataSans = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta-sans",
@@ -25,14 +26,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body
-        className={`${plusJarkataSans.variable} ${ibmPlexSans.variable} ${playfairDisplay.variable} antialiased leading-8 overflow-x-hidden bg-[#ecf6ff] dark:bg-background dark:text-white`}
+        className={`
+          ${plusJarkataSans.variable} ${ibmPlexSans.variable} ${playfairDisplay.variable} 
+          antialiased leading-8 overflow-x-hidden bg-[#ecf6ff] dark:bg-background dark:text-white
+          flex flex-col min-h-screen
+        `}
       >
         <Navbar />
 
-        <main className="pt-[123px]">
+        {/* Le contenu prend tout l'espace disponible */}
+        <main className="pt-[123px] flex-1">
           {children}
+          <div className="h-55" /> 
         </main>
+
+        {/* Footer en bas */}
+        <Footer />
       </body>
     </html>
   );
 }
+

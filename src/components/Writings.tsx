@@ -1,5 +1,4 @@
 import React from 'react'
-import GridLayout from './GridLayout'
 import DotGridLayout from './DotGridLayout'
 
 
@@ -22,7 +21,7 @@ function Writtings() {
             </h4>
 
             <div className="flex items-start gap-2">
-              <p className="text-[18px] font-ibm-plex-sans text-[#1E1E1E] max-w-[900px]">
+              <p className="text-[16px] font-ibm-plex-sans text-[#1E1E1E] max-w-[900px]">
                 Faites de votre IA la vôtre. Entraînez, distillez, affinez et construisez avec les meilleurs modèles open source au monde.
               </p>
               <div className="svg-container">
@@ -44,7 +43,7 @@ function Writtings() {
             </h4>
 
             <div className="flex items-start gap-8">
-              <p className="text-[18px] font-ibm-plex-sans text-[#1E1E1E] max-w-[600px]">
+              <p className="text-[16px] font-ibm-plex-sans text-[#1E1E1E] max-w-[600px]">
                 Faites de votre IA la vôtre. Entraînez, distillez, affinez et construisez avec les meilleurs modèles open source au monde.
               </p>
               <div className="svg-container">
@@ -66,7 +65,7 @@ function Writtings() {
             </h4>
 
             <div className="flex items-start gap-8">
-              <p className="text-[18px] font-ibm-plex-sans text-[#1E1E1E] max-w-[600px]">
+              <p className="text-[16px] font-ibm-plex-sans text-[#1E1E1E] max-w-[600px]">
                 Faites de votre IA la vôtre. Entraînez, distillez, affinez et construisez avec les meilleurs modèles open source au monde.
               </p>
               <div className="svg-container">
@@ -88,7 +87,7 @@ function Writtings() {
             </h4>
 
             <div className="flex items-start gap-8">
-              <p className="text-[18px] font-ibm-plex-sans text-[#1E1E1E] max-w-[600px]">
+              <p className="text-[16px] font-ibm-plex-sans text-[#1E1E1E] max-w-[600px]">
                 Faites de votre IA la vôtre. Entraînez, distillez, affinez et construisez avec les meilleurs modèles open source au monde.
               </p>
               <div className="svg-container">

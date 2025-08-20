@@ -9,24 +9,24 @@ const Navbar = () => {
             <header className="fixed inset-x-0 top-0 z-[99] bg-[#ecf6ff] dark:bg-background">
                 <div className="w-full px-[120px] flex items-start justify-between pt-[32px] pb-4">
 
-                    <p className="w-fit font-extrabold text-[20px] tracking-[-1.92px]">
+                    <p className="w-fit font-extrabold text-[18px] tracking-[-1.92px]">
                         <span className="text-[#56adcb] tracking-[-0.61px]">For</span>
                         <span className="text-[#1e1e1e] tracking-[-0.61px]">Splinter</span>
                     </p>
 
                     
-                    <div className="flex flex-col justify-start gap-[3px]">
+                    <div className="flex flex-col justify-start gap-[1px]">
                         {["My projects", "About me", "Writings", "Photos&Artworks"].map((item, idx) => (
-                            <div key={idx} className="font-bold text-[#56adcb] text-[20px]">
+                            <div key={idx} className="font-bold text-[#56adcb] text-[16px]">
                                 {item}
                             </div>
                         ))}
                     </div>
 
                     
-                    <div className="flex flex-col justify-start w-[120px] gap-[3px]">
+                    <div className="flex flex-col justify-start w-[120px] gap-[1px]">
                         {["LinkedIn", "Github", "Apple Music"].map((item, idx) => (
-                            <div key={idx} className="font-bold text-[#56adcb] text-xl">
+                            <div key={idx} className="font-bold text-[#56adcb] text-[16px]">
                                 {item}
                             </div>
                         ))}
@@ -35,7 +35,7 @@ const Navbar = () => {
                     <button
                         className="
                         font-plus-jakarta-sans
-                        text-[20px]
+                        text-[16px]
                         inline-flex justify-center items-center relative whitespace-nowrap
                         rounded-[15px] border-2 border-[#56adcb] h-[36px] px-4 gap-x-[10px]
                         bg-transparent text-[#56adcb] font-bold
