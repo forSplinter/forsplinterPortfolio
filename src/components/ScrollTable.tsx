@@ -10,8 +10,8 @@ import datadogIcon from "@/assets/logoPython/datadog_logo.svg";
 import mlflowIcon from "@/assets/logoPython/mlflow_logo.svg";
 import pytorchIcon from "@/assets/logoPython/PyTorch_logo_black.svg";
 import dockerIcon from "@/assets/logoPython/docker_logo.svg";
-import microsoftAzureIcon from "@/assets/logoPython/microsoft_azure_portal_logo.svg";
-import openmpIcon from "@/assets/logoPython/openmp_logo.png";
+import microsoftAzureIcon from "@/assets/logoPython/microsoft_azure_portal_logo_icon.svg";
+import openmpIcon from "@/assets/logoPython/openmp_logo.svg";
 
 const logos = [
   { src: airflowIcon, href: "https://airflow.apache.org/", title: "Airflow" },
