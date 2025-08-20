@@ -31,27 +31,5 @@ export const projects = [
         src: imageD,
         link: '',
         color: '#56adcb'
-    },
-    {
-        title: 'Project E',
-        description: 'Description for Project E',
-        src: imageD,
-        link: '',
-        color: '#4b9ab6'
-    },
-    {
-        title: 'Project F',
-        description: 'Description for Project F',
-        src: imageD,
-        link: '',
-        color: '#3a7f97'
-    },
-    {
-        title: 'Project G',
-        description: 'Description for Project G',
-        src: imageD,
-        link: '',
-        color: '#296376'
     }
-    
 ]

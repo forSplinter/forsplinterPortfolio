@@ -15,14 +15,14 @@ function Writtings() {
         <DotGridLayout />
       </div>
       <div className="relative z-10 mx-[120px]">
-        <div className="w-[1100px] divide-y divide-[#56ADCB] border-y border-y-[#56ADCB]">
+        <div className="w-[700px] divide-y divide-[#56ADCB] border-y border-y-[#56ADCB]">
           <div className="flex flex-col gap-[32px] py-8">
-            <h4 className="text-[32px] font-plus-jakarta-sans font-bold text-[#1E1E1E] max-w-[900px]">
+            <h4 className="text-[32px] font-plus-jakarta-sans font-bold text-[#1E1E1E] max-w-[600px]">
               Unlocking the potential of vision language models on satellite imagery through fine-tuning
             </h4>
 
-            <div className="flex items-start gap-8">
-              <p className="text-[18px] font-ibm-plex-sans text-[#1E1E1E] max-w-[600px]">
+            <div className="flex items-start gap-2">
+              <p className="text-[18px] font-ibm-plex-sans text-[#1E1E1E] max-w-[900px]">
                 Faites de votre IA la vôtre. Entraînez, distillez, affinez et construisez avec les meilleurs modèles open source au monde.
               </p>
               <div className="svg-container">
@@ -111,7 +111,7 @@ function Writtings() {
                                         font-plus-jakarta-sans
                                         text-[20px]
                                         inline-flex justify-center items-center relative whitespace-nowrap
-                                        rounded-[15px] border-3 border-[#56adcb] h-[36px] px-4 gap-x-[10px]
+                                        rounded-[15px] border-2 border-[#56adcb] h-[36px] px-4 gap-x-[10px]
                                         bg-transparent text-[#56adcb] font-bold
                                         hover:bg-black hover:text-white hover:border-transparent
                                         transition-colors duration-200 ease-in-out

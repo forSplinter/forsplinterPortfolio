@@ -4,6 +4,7 @@ import lkIcon from "@/assets/LK_logo.svg";
 import appleMusicIcon from "@/assets/apple_music.svg";
 import githubIcon from "@/assets/git.svg";
 import miyamotoSMask from "@/assets/miyamoto_background.svg";
+import DotGridLayout from './DotGridLayout';
 
 
 function Header() {
@@ -14,6 +15,9 @@ function Header() {
                     ©2025
                 </div>
                 <div className="border-t-2 border-[#56adcb] w-full" />
+            </div>
+            <div className="absolute top-[100px] left-[120px] right-[120px] px-[120px] h-[800px] -z-10">
+                <DotGridLayout />
             </div>
 
             <h1 className=" ml-[120px] mt-[19px] font-plus-jakarta-sans font-extrabold text-transparent text-8xl tracking-[-5.76px] leading-[normal] whitespace-nowrap">
