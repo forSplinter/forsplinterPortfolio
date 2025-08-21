@@ -37,9 +37,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Le contenu prend tout l'espace disponible */}
         <main className="pt-[123px] flex-1">
           {children}
-          <div className="h-50" /> 
+          <div className="h-55" /> 
         </main>
-
         <Footer />
       </body>
     </html>

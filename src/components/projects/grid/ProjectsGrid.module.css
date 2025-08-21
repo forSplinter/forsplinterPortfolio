@@ -1,0 +1,10 @@
+.myMasonryGrid {
+  display: flex;
+  margin-left: -16px; /* gutter size offset */
+  width: auto;
+}
+
+.myMasonryGridColumn {
+  padding-left: 16px; /* gutter size */
+  background-clip: padding-box;
+}

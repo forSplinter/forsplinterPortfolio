@@ -17,7 +17,7 @@ export default function Home() {
       </section>
       <section id="my-projects" className="mt-32">
         <Myproject />
-        <div className="mt-70 flex justify-center">
+        <div className="mt-90 flex justify-center">
           <ButtonType />
         </div>
       </section>

@@ -10,10 +10,10 @@ function Writtings() {
         <span className="text-[#1e1e1e] tracking-[-5.53px]">Writtings</span>
         <span className="text-[#1e1e1e] tracking-[-5.53px]">.</span>
       </h1>
-      <div className="absolute top-[100px] left-[120px] right-[120px] px-[120px] h-[1100px] -z-10">
+      <div className="absolute top-[100px] left-[120px] right-[120px] px-[120px] h-[1400px] -z-10">
         <DotGridLayout />
       </div>
-      <div className="relative z-10 mx-[120px]">
+      <div className="relative z-10 mx-[120px] mt-[120px]">
         <div className="w-[700px] divide-y divide-[#56ADCB] border-y border-y-[#56ADCB]">
           <div className="flex flex-col gap-[32px] py-8">
             <h4 className="text-[32px] font-plus-jakarta-sans font-bold text-[#1E1E1E] max-w-[600px]">
@@ -104,7 +104,7 @@ function Writtings() {
             </div>
           </div>
         </div>
-        <div className="mt-27 flex justify-center">
+        <div className="mt-32 flex justify-center">
           <button
             className="
                                         font-plus-jakarta-sans
